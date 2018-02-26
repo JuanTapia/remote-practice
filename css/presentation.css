@@ -1,5 +1,37 @@
+*{  /*this will reset all margin and padding to zero */
+  margin:0;
+  padding:0;
+}
 body{
-  background-color: black;
-  color:#33FF96;
+  background-color:#f4f4f4;
+  color:#555555;
+/*  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  font-weight:normal or bold;*/
+  font: normal 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 1.9em;
+  margin:0;
+}
+.container{
+  width:80%;
+  margin:auto; /*to center a div */
+}
+.box-1{
+  background-color: #333333;
+  color:#ffffff;
+
+  /*border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-bottom:5px red solid;
+  border-top: 5px red solid;*/
+  border: 5px red solid; /*same as above */
+  border-width:10px;
+  border-bottom-width:3px;
+  border-top-style:dotted;
+
+  border: 5px red solid; /*this will overite everything above */
+
+  padding:20px; /* this will add 20px to top, bottom, left and right */
+  margin: 20px 0; /*this will add 20px to top and bottom and zero to right and left */
 
 }
