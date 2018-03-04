@@ -101,3 +101,11 @@ a:visited{
   color:#fff;
   padding:10px 15px;
 }
+
+.block{
+  float:left;
+  width: 33.33%;
+  border: 1px solid #ccc;
+  padding:10px;
+  box-sizing: border-box;
+}
