@@ -101,11 +101,8 @@ a:visited{
   color:#fff;
   padding:10px 15px;
 }
-<<<<<<< HEAD
-/*this works for elements that have the same width  */
-=======
 
->>>>>>> feature-1
+/*this works for elements that have the same width  */
 .block{
   float:left;
   width: 33.33%;
