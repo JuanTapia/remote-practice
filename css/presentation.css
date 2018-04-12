@@ -148,3 +148,12 @@ a:visited{
   position: fixed;
   top: 500px;
 }
+.my-list li:first-child{
+  background:red;
+}
+.my-list li:last-child{
+  background:blue;
+}
+.my-list li:nth-child(even){
+  background:gray;
+}
