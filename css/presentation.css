@@ -1,4 +1,9 @@
+body{
+  background-color: #f4f4f4;
+  color:#555; /*this will change only the color of the text */
+  font-family: Arial, Helvetica, sans-serif;/*Cambia la forma de la letra(font) */
+  font-size: 16px; /*El tamano de la letra, lo normal es 16px */
+  font-weight: normal;;/*es el gruesor de la letra*/
 
-h1{
-  color:green;
+  font: normal 16px Arial, Helvetica, sans-serif;/*una forma corta de hacer lo mismo de arriba*/
 }
