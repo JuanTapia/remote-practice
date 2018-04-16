@@ -6,4 +6,15 @@ body{
   font-weight: normal;;/*es el gruesor de la letra*/
 
   font: normal 16px Arial, Helvetica, sans-serif;/*una forma corta de hacer lo mismo de arriba*/
+
+  line-height: 1.6em; /*Espacio entre lineas, em is a unit used in responsive */
+}
+.box-1{
+  background-color: #333;
+  color:#fff;
+  border:5px red solid;
+}
+.container{
+  width: 80%;
+  margin:auto;
 }
